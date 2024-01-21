@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
 import { Link } from "react-router-dom";
-import home from "./assets/sample-room-pic.jpg";
+import home from "./assets/home.jpg";
 import twin from "./assets/1.jpg";
 import double from "./assets/2.jpg";
 import suite from "./assets/3.jpg";
@@ -18,7 +18,7 @@ const Home = () => {
         <img
           src={home} alt="Home Pic"/>
         <div className="Hotel-info-container">
-          <h2>Jade Hotel</h2>
+        <h2 className="hotel-name">Jade Hotel</h2>
           <p className="welcome-text">
             Welcome to Jade Hotel, hehehehehe. 
             Enjoy your stay in our premium accommodations and experience unparalleled hospitality.
