@@ -1,0 +1,18 @@
+h2 {
+  font-family: "Helvetica Neue Light", sans-serif;
+  text-align: center;
+  padding: 20px 15px 50px 15px;
+  font-size: 30px;
+}
+
+p {
+  font-family: "Roboto Slab", serif;
+  font-size: large;
+  line-height: 1.7em;
+  margin-bottom: 1rem;
+}
+
+.text-container {
+  text-align: left;
+  max-width: 800px;
+}
