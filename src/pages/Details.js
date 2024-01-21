@@ -10,6 +10,9 @@ const Details = () => {
         <div className="picture-1">
           <img src="./src/assets/sample-room-pic.jpg" alt="Sample Pic"></img>
         </div>
+        <div className="picture-1">
+          <img src="./src/assets/sample-room-pic.jpg" alt="Sample Pic"></img>
+        </div>
       </div>
       <div className="details-container">
         <h1 className="room-name">Single room</h1>
