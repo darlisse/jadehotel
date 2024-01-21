@@ -1,24 +1,36 @@
 import React from "react";
 
 const Home = () => {
-  return <section id="RoomList">
-    <div class="Room-details-container">
-      <div class="Room-details-container">
-        <div class="Room-details-container">
-
-          <div class="Room-container">
-            <article>
-              <img
-                src="./assets/1.jpg"
-                alt="Twin Bed"
-                class="icon"
-              />
-              <div>
-                <h3>Twin Room</h3>
-                <p>Two separate single beds placed in the same room</p>
-              </div>
-            </article>
-            <article>
+  return (
+    <>
+      <section id="HomeJade">
+        <img
+          src='./assets/home.jpg'
+          alt="Home"
+        />
+        <div className="Hotel-info-container">
+          <h2>Jade Hotel</h2>
+          <p>Welcome to Jade Hotel, hehehehehe. 
+            Enjoy your stay in our premium accommodations and experience unparalleled hospitality.</p>
+        </div>
+      </section>
+      <section id="RoomList">
+        <div className="Room-details-container">
+          <div className="Room-details-container">
+            <div className="Room-details-container">
+              <div className="Room-container">
+                <article>
+                  <img
+                    src="../assets/1.jpg"
+                    alt="Twin Bed"
+                    className="icon"
+                  />
+                  <div>
+                    <h3>Twin Room</h3>
+                    <p>Two separate single beds placed in the same room</p>
+                  </div>
+                </article>
+                <article>
               <img
                 src="./assets/2.jpg"
                 alt="Double Bed"
@@ -62,11 +74,13 @@ const Home = () => {
                 <p>The highest-tier suite in some hotels, offering the most luxurious amenities and often reserved for VIP guests or special occasions.</p>
               </div>
             </article>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
+      </section>
+    </>
+  );
 };
 
 export default Home;
