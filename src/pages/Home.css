@@ -40,7 +40,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(255, 255, 255, 0.7); 
+  background: rgba(255, 255, 255, 0.5);
   z-index: -1; 
 }
 
@@ -120,13 +120,26 @@ article:hover h3 {
 }
 
 .Contact-container {
-  max-width: 600px;
+  max-width: 900px;
   margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; 
+}
+
+.contact-form,
+.contact-info {
+  width: 100%; 
+}
+
+.contact-form h2,
+.contact-info h2 {
+  margin-bottom: 10px;
 }
 
 form {
   display: grid;
-  gap: 15px;
+  gap: 5px;
 }
 
 label {
@@ -153,3 +166,17 @@ button {
 button:hover {
   background-color: #caecda;
 }
+
+.contact-info {
+  width: 48%; 
+}
+
+.social-media-text {
+  font-size: 14px;
+}
+
+
+  form,
+  .contact-info {
+    width: 100%;
+  }
