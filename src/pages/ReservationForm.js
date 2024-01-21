@@ -51,7 +51,6 @@ const calculatePrice = (startDate, endDate, numGuests, roomType) => {
 };
 
 const Form = () => {
-
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [contactNumber, setContactNumber] = useState("");
@@ -115,6 +114,7 @@ const Form = () => {
       Total Price - $${totalPrice},
       Payment Method - ${paymentMethod},
       Card Number - ${cardNumber}`);
+    alert("Your reservation is successful!");
   };
 
   return (
@@ -267,13 +267,12 @@ const Form = () => {
 
         <p>Total Price: Php{totalPrice}</p>
 
-
         <button type="button" onClick={handleBooking} disabled={isDatesBooked}>
           Book Now
         </button>
       </form>
     </div>
   );
-}
+};
 
 export default Form;
