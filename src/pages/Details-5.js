@@ -1,9 +1,9 @@
 import React from "react";
 import "./Details.css"; 
 import { Link } from "react-router-dom";
-import twin from "./assets/1.jpg";
-import twin2 from "./assets/1.1.jpg";
-import twin3 from "./assets/1.2.png";
+import pres from "./assets/5.jpg";
+import pres2 from "./assets/5.1.jpg";
+import pres3 from "./assets/5.2.jpg";
 import wifi from "./assets/wifi.png";
 import pet from "./assets/pet.png";
 import breakfast from "./assets/food.png";
@@ -17,31 +17,32 @@ const Details = () => {
     <div className="room-details-container">
       <div className="picture-container">
         <div className="picture">
-          <img src={twin} alt="Sample Pic"/>
-          <img src={twin2} alt="Sample Pic"/>
-          <img src={twin3} alt="Sample Pic"/>
+          <img src={pres} alt="Sample Pic"/>
+          <img src={pres2} alt="Sample Pic"/>
+          <img src={pres3} alt="Sample Pic"/>
         </div>
       </div>
       
       <div className="details-container">
-        <h1 className="room-name">Twin Room</h1>
+        <h1 className="room-name">Presidential</h1>
         <div className="room-description-1">
           <pre>
-            {'Max number of guests: 2\nRoom size: Standard size for dual occupancy\nBed size: Two standard single beds\n'}
+            {'Max number of guests: 4-8\nRoom size: Expansive\nBed size: King-size Bed\n'}
           </pre>
         
         </div>
         <div className="room-description-2">
-        The Twin Room in our hotel is perfect for friends or colleagues 
-        traveling together. Featuring two comfortable beds and modern 
-        amenities, it provides a cozy and inviting space for dual occupancy. 
-        The ensuite bathroom ensures convenience and privacy, complete with 
-        complimentary toiletries. With high-speed internet, a flat-screen TV, 
-        and a well-appointed workspace, the Twin Room offers a harmonious 
-        blend of comfort and functionality. Guests can enjoy the flexibility 
-        of shared accommodations while relishing the individual comforts our 
-        hotel provides, making it an ideal choice for those seeking a 
-        comfortable and convenient stay.
+        The Presidential Suite in our hotel is the pinnacle of opulence and 
+        exclusivity, providing an unmatched experience for those seeking the 
+        utmost in luxury. With a distinct living area, multiple bedrooms, and 
+        lavish furnishings, the suite exudes grandeur and sophistication. 
+        The bedrooms often feature king-size beds, ensuring the highest 
+        level of comfort. The suite boasts a private and decadent bathroom 
+        with premium amenities. Exclusive perks such as a dedicated concierge 
+        service, spacious lounge areas, and state-of-the-art entertainment 
+        systems elevate the Presidential Suite to an unparalleled level of 
+        indulgence, promising an extraordinary stay for the most discerning 
+        guests.
         </div>
         <div className="line"></div>
         <div className="check-in-out">

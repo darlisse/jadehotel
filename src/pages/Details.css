@@ -1,11 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Lemon&display=swap");
-
-
+@import url('https://fonts.cdnfonts.com/css/metropolis-2');
+@import url('https://fonts.cdnfonts.com/css/typographica');
 
 .room-details-container {
     display: flex;
     color: black;
     gap: 5rem;
+    font-family: 'Metropolis';
+}
+
+pre {
+    font-family: 'Metropolis';
 }
 
 .picture-container {
@@ -16,7 +20,8 @@
 .room-name {
     text-align: left;
     font-size: 3rem;
-    color: black;
+    color: black;   
+    font-family: 'Metropolis';
 }
 
 .details-container {
@@ -28,7 +33,7 @@
     display: flex;
     flex-direction: column;
     height: 25rem;
-    width: auto;
+    width: 40rem;
     border-radius: 0;
     margin-top: 0;
 }
@@ -100,6 +105,7 @@
     background-color: rgb(0, 0, 0);
     color: white;
     justify-content: center;
+    font-family: 'Metropolis    ';
 }
 
 .book-now:hover {
