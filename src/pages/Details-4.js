@@ -1,9 +1,9 @@
 import React from "react";
 import "./Details.css"; 
 import { Link } from "react-router-dom";
-import twin from "./assets/1.jpg";
-import twin2 from "./assets/1.1.jpg";
-import twin3 from "./assets/1.2.png";
+import exe from "./assets/4.jpg";
+import exe2 from "./assets/4.1.jpg";
+import exe3 from "./assets/4.2.jpg";
 import wifi from "./assets/wifi.png";
 import pet from "./assets/pet.png";
 import breakfast from "./assets/food.png";
@@ -17,31 +17,30 @@ const Details = () => {
     <div className="room-details-container">
       <div className="picture-container">
         <div className="picture">
-          <img src={twin} alt="Sample Pic"/>
-          <img src={twin2} alt="Sample Pic"/>
-          <img src={twin3} alt="Sample Pic"/>
+          <img src={exe} alt="Sample Pic"/>
+          <img src={exe2} alt="Sample Pic"/>
+          <img src={exe3} alt="Sample Pic"/>
         </div>
       </div>
       
       <div className="details-container">
-        <h1 className="room-name">Twin Room</h1>
+        <h1 className="room-name">Executive</h1>
         <div className="room-description-1">
           <pre>
-            {'Max number of guests: 2\nRoom size: Standard size for dual occupancy\nBed size: Two standard single beds\n'}
+            {'Max number of guests: 2-5\nRoom size: Spacious and Upscale\nBed size: King-size Bed\n'}
           </pre>
         
         </div>
         <div className="room-description-2">
-        The Twin Room in our hotel is perfect for friends or colleagues 
-        traveling together. Featuring two comfortable beds and modern 
-        amenities, it provides a cozy and inviting space for dual occupancy. 
-        The ensuite bathroom ensures convenience and privacy, complete with 
-        complimentary toiletries. With high-speed internet, a flat-screen TV, 
-        and a well-appointed workspace, the Twin Room offers a harmonious 
-        blend of comfort and functionality. Guests can enjoy the flexibility 
-        of shared accommodations while relishing the individual comforts our 
-        hotel provides, making it an ideal choice for those seeking a 
-        comfortable and convenient stay.
+        The Suite in our hotel is an epitome of luxury and comfort, offering a 
+        spacious retreat for a truly indulgent stay. Featuring a separate living 
+        area and bedroom, it exudes sophistication and style. The bedroom is 
+        adorned with a lavish king-size bed, ensuring a restful night's sleep. 
+        The suite comes complete with a private bathroom, featuring upscale 
+        amenities for an elevated experience. With additional amenities such 
+        as a well-equipped workspace, high-speed internet, and premium 
+        entertainment options, our Suite guarantees a refined and pleasurable 
+        stay for discerning travelers.
         </div>
         <div className="line"></div>
         <div className="check-in-out">

@@ -46,7 +46,7 @@ const Home = () => {
                 </article>
                 
                 <article>
-                  <Link to="/Details">
+                  <Link to="/Details-2">
                     <img
                       src={double} alt="Double Bed"
                       className="icon"
@@ -59,9 +59,9 @@ const Home = () => {
                 </article>
 
                 <article>
-                  <Link to="/Details">
+                  <Link to="/Details-3">
                     <img
-                    src={suite} alt="Suit"
+                    src={suite} alt="Suite"
                     className="icon"
                     />
                     <div>
@@ -72,7 +72,7 @@ const Home = () => {
                  </article>
 
                 <article>
-                  <Link to="/Details">
+                  <Link to="/Details-4">
                     <img
                       src={executive} alt="Executive"
                       className="icon"
@@ -85,7 +85,7 @@ const Home = () => {
                 </article>
 
                 <article>
-                  <Link to="/Details">
+                  <Link to="/Details-5">
                     <img
                       src={presidential} alt="Presidential"
                       className="icon"
@@ -98,7 +98,7 @@ const Home = () => {
                 </article>
 
                 <article>
-                  <Link to="/Details">
+                  <Link to="/Details-6">
                     <img
                       src={penthouse} alt="Penthouse"
                       className="icon"

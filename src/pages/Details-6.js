@@ -1,15 +1,15 @@
 import React from "react";
 import "./Details.css"; 
 import { Link } from "react-router-dom";
-import twin from "./assets/1.jpg";
-import twin2 from "./assets/1.1.jpg";
-import twin3 from "./assets/1.2.png";
+import pent from "./assets/6.jpg";
+import pent2 from "./assets/6.1.jpg";
+import pent3 from "./assets/6.2.jpg";
 import wifi from "./assets/wifi.png";
 import pet from "./assets/pet.png";
 import breakfast from "./assets/food.png";
 import aircon from "./assets/aircon.png";
 
-
+    
 const Details = () => {
 
   return (
@@ -17,31 +17,31 @@ const Details = () => {
     <div className="room-details-container">
       <div className="picture-container">
         <div className="picture">
-          <img src={twin} alt="Sample Pic"/>
-          <img src={twin2} alt="Sample Pic"/>
-          <img src={twin3} alt="Sample Pic"/>
+          <img src={pent} alt="Sample Pic"/>
+          <img src={pent2} alt="Sample Pic"/>
+          <img src={pent3} alt="Sample Pic"/>
         </div>
       </div>
       
       <div className="details-container">
-        <h1 className="room-name">Twin Room</h1>
+        <h1 className="room-name">Penthouse</h1>
         <div className="room-description-1">
           <pre>
-            {'Max number of guests: 2\nRoom size: Standard size for dual occupancy\nBed size: Two standard single beds\n'}
+            {'Max number of guests: 5-10\nRoom size: Spacious\nBed size: Luxurious Beds\n'}
           </pre>
         
         </div>
         <div className="room-description-2">
-        The Twin Room in our hotel is perfect for friends or colleagues 
-        traveling together. Featuring two comfortable beds and modern 
-        amenities, it provides a cozy and inviting space for dual occupancy. 
-        The ensuite bathroom ensures convenience and privacy, complete with 
-        complimentary toiletries. With high-speed internet, a flat-screen TV, 
-        and a well-appointed workspace, the Twin Room offers a harmonious 
-        blend of comfort and functionality. Guests can enjoy the flexibility 
-        of shared accommodations while relishing the individual comforts our 
-        hotel provides, making it an ideal choice for those seeking a 
-        comfortable and convenient stay.
+        The Penthouse in our hotel is the epitome of luxury and exclusivity, 
+        providing an unparalleled experience for those seeking the highest 
+        standards of accommodation. Perched at the pinnacle of the building, 
+        the Penthouse features a lavish living space with multiple bedrooms, 
+        offering breathtaking panoramic views. Furnished with opulent decor, 
+        the Penthouse is a haven of sophistication. The bedrooms typically 
+        boast king-size beds for the utmost comfort. With exclusive amenities, 
+        a private terrace, and personalized services, our Penthouse ensures an 
+        extraordinary stay for the most discerning guests, creating memories 
+        that linger long after their departure.
         </div>
         <div className="line"></div>
         <div className="check-in-out">
