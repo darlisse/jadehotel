@@ -1,23 +1,155 @@
 #HomeJade {
-    position: relative;
-    height: 100vh;
-    overflow: hidden;
-  }
-  
-  #HomeJade img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
 
-  .Hotel-info-container {
-    text-align: center;
-    max-width: 600px; 
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1; 
-  }
-  
-  
+#HomeJade img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.Hotel-info-container {
+  text-align: center;
+  max-width: 600px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.hotel-name {
+  font-size: 75px;
+  color: white;
+  position: relative; 
+  z-index: 1; 
+}
+
+.welcome-text {
+  font-size: 20px;
+  color: black;
+  position: relative;
+}
+
+.welcome-text::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.7); 
+  z-index: -1; 
+}
+
+
+#RoomList {
+  margin: 20px;
+}
+
+.Room-details-container {
+  display: flex;
+  justify-content: center;
+}
+
+.Room-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+article {
+  position: relative;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 10px;
+  text-align: center;
+  width: 48%;
+  min-width: 200px;
+  height: 300px;
+  background-color: #fff;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+article:hover {
+  transform: scale(1.05);
+}
+
+img {
+  max-width: 100%;
+  max-height: 80%;
+  margin-top: 5px;
+  border-radius: 5px;
+  opacity: 0.9; 
+  transition: opacity 0.3s ease-in-out;
+}
+
+article:hover img {
+  opacity: 0.7; 
+}
+
+h3 {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+article p {
+  margin-top: 5px;
+  font-size: 16px;
+  color: #000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+article:hover p,
+article:hover h3 {
+  opacity: 1;
+}
+
+#Contact {
+  background-color: #f8f8f8;
+  padding: 40px;
+  text-align: center;
+}
+
+.Contact-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+form {
+  display: grid;
+  gap: 15px;
+}
+
+label {
+  font-size: 16px;
+  display: block;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+}
+
+button {
+  background-color: #75A66F;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #caecda;
+}

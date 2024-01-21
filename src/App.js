@@ -5,7 +5,6 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Details from "./pages/Details";
 
-
 const App = () => {
   return (
     <div className="App">
