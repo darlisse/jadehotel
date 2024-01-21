@@ -1,4 +1,5 @@
 import React from "react";
+import "./Details.css";
 
 const Details = () => {
 
@@ -6,10 +7,13 @@ const Details = () => {
 
     <div className="room-details-container">
       <div className="picture-container">
-        <h1>Hello din</h1>
+        
       </div>
       <div className="details-container">
-        <h1>Hello din</h1>
+        <h1 className="room-name">Single room</h1>
+        <article>
+          
+        </article>
       </div>
     </div>
     
