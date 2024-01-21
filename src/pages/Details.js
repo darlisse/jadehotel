@@ -1,6 +1,6 @@
 import React from "react";
 import "./Details.css";
-import sample from "./assets/sample-room-pic.jpg";
+import twin from "./assets/1.jpg";
 import wifi from "./assets/wifi.png";
 import pet from "./assets/pet.png";
 import breakfast from "./assets/food.png";
@@ -14,13 +14,13 @@ const Details = () => {
     <div className="room-details-container">
       <div className="picture-container">
         <div className="picture">
-          <img src={sample} alt="Sample Pic"/>
+          <img src={twin} alt="Sample Pic"/>
         </div>
         <div className="picture">
-          <img src={sample} alt="Sample Pic"/>
+          <img src={twin} alt="Sample Pic"/>
         </div>
         <div className="picture">
-          <img src={sample} alt="Sample Pic"/>
+          <img src={twin} alt="Sample Pic"/>
         </div>
       </div>
       

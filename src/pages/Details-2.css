@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Lemon&display=swap");
+
+article {
+    border: none;
+    height: auto;
+}
+
+.room-details-container {
+    display: flex;
+    color: black;
+    gap: 5rem;
+    margin: 3rem;
+}
+
+.picture-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.picture {
+    display: flex;
+    height: 20rem;
+    width: auto;
+}
+
+.room-description-1,
+.room-description-2 {
+    font-size: 12px;
+    width: 35rem;
+    text-align: left;
+    line-height: 2rem;
+}
+
+.room-description-1 {
+    width: 25rem;
+}
+
+.line {
+    display: flex;
+    background-color: black;
+    width: 38rem;
+    height: .2rem;
+    margin-top: 2rem;
+}
+
+.check-in-out {
+    display: flex;
+    gap: 10rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.inclusions-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.inclusion {
+    display: flex;
+    height: 1rem;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    font-size: 13px;
+    align-items: center;
+}
+
+.inclusion img {
+    height: 2rem;
+    width: auto;
+}
+
+.book-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.book-now {
+    width: 35rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
