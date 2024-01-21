@@ -112,3 +112,44 @@ article:hover p,
 article:hover h3 {
   opacity: 1;
 }
+
+#Contact {
+  background-color: #f8f8f8;
+  padding: 40px;
+  text-align: center;
+}
+
+.Contact-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+form {
+  display: grid;
+  gap: 15px;
+}
+
+label {
+  font-size: 16px;
+  display: block;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+}
+
+button {
+  background-color: #75A66F;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #caecda;
+}
