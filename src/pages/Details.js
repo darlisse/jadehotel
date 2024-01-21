@@ -8,10 +8,7 @@ const Details = () => {
     <div className="room-details-container">
       <div className="picture-container">
         <div className="picture-1">
-          <img src="pic_trulli.jpg" alt="Italian Trulli"></img>
-        </div>
-        <div className="picture-2">
-
+          <img src="./src/assets/sample-room-pic.jpg" alt="Sample Pic"></img>
         </div>
       </div>
       <div className="details-container">
