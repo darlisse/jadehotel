@@ -4,13 +4,10 @@ import "./About.css";
 const About = () => {
   return (
     <div>
-      {/*<h3>LOGO</h3>*/}
-      <h2>
+      <h3>
         Jade Hotel: Resorts and Casino and Restaurant and Fast Food Chain and
-        Mall and Spa and Amusement Park Resorts and Casino and Restaurant and
-        Fast Food Chain and Mall and Spa and Amusement Park.
-      </h2>
-
+        Mall and Spa and Amusement Park.
+      </h3>
       <div className="text-container">
         <p>
           Where luxury and comfort converge in Kimshimishimi City. Our hotel
