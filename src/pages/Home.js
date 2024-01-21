@@ -9,7 +9,7 @@ const Home = () => {
           <div class="Room-container">
             <article>
               <img
-                src="../assets/1.jpg"
+                src="./assets/1.jpg"
                 alt="Twin Bed"
                 class="icon"
               />
