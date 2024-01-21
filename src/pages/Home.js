@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -30,6 +31,7 @@ const Home = () => {
                     <h3>Twin Room</h3>
                     <p>Two separate single beds placed in the same room</p>
                   </div>
+                  <Link to="/Details">View</Link>
                 </article>
                 <article>
               <img

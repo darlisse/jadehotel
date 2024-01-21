@@ -1,5 +1,6 @@
 import React from "react";
 import "./Details.css";
+import sample from "./assets/sample-room-pic.jpg";
 
 const Details = () => {
 
@@ -7,12 +8,7 @@ const Details = () => {
 
     <div className="room-details-container">
       <div className="picture-container">
-        <div className="picture-1">
-          <img src="./src/assets/sample-room-pic.jpg" alt="Sample Pic"></img>
-        </div>
-        <div className="picture-1">
-          <img src="./src/assets/sample-room-pic.jpg" alt="Sample Pic"></img>
-        </div>
+        <img src={sample} alt="Sample Pic"/>
       </div>
       <div className="details-container">
         <h1 className="room-name">Single room</h1>
