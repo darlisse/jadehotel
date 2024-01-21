@@ -1,19 +1,27 @@
 import React from "react";
 import "./Home.css";
 import { Link } from "react-router-dom";
+import home from "./assets/sample-room-pic.jpg";
+import twin from "./assets/1.jpg";
+import double from "./assets/2.jpg";
+import suite from "./assets/3.jpg";
+import executive from "./assets/4.jpg";
+import presidential from "./assets/5.jpg";
+
+
 
 const Home = () => {
   return (
     <>
       <section id="HomeJade">
         <img
-          src='./assets/home.jpg'
-          alt="Home"
-        />
+          src={home} alt="Home Pic"/>
         <div className="Hotel-info-container">
           <h2>Jade Hotel</h2>
-          <p>Welcome to Jade Hotel, hehehehehe. 
-            Enjoy your stay in our premium accommodations and experience unparalleled hospitality.</p>
+          <p className="welcome-text">
+            Welcome to Jade Hotel, hehehehehe. 
+            Enjoy your stay in our premium accommodations and experience unparalleled hospitality.
+          </p>
         </div>
       </section>
       <section id="RoomList">
@@ -23,8 +31,7 @@ const Home = () => {
               <div className="Room-container">
                 <article>
                   <img
-                    src="../assets/1.jpg"
-                    alt="Twin Bed"
+                    src={twin} alt="Twin"
                     className="icon"
                   />
                   <div>
@@ -35,8 +42,7 @@ const Home = () => {
                 </article>
                 <article>
               <img
-                src="./assets/2.jpg"
-                alt="Double Bed"
+                src={double} alt="Double Bed"
                 class="icon"
               />
               <div>
@@ -46,8 +52,7 @@ const Home = () => {
             </article>
             <article>
               <img
-                src="./assets/3.jpg"
-                alt="Suite"
+                src={suite} alt="Suit"
                 class="icon"
               />
               <div>
@@ -57,8 +62,7 @@ const Home = () => {
             </article>
             <article>
               <img
-                src="./assets/4.jpg"
-                alt="Executive Room"
+                src={executive} alt="Executive"
                 class="icon"
               />
               <div>
@@ -68,8 +72,7 @@ const Home = () => {
             </article>
             <article>
               <img
-                src="./assets/5.jpg"
-                alt="Presidential Suite"
+                src={presidential} alt="Presidential"
                 class="icon"
               />
               <div>
