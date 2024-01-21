@@ -1,5 +1,6 @@
 import React from "react";
-import "./Details.css";
+import "./Details.css"; 
+import { Link } from "react-router-dom";
 import twin from "./assets/1.jpg";
 import wifi from "./assets/wifi.png";
 import pet from "./assets/pet.png";
@@ -15,24 +16,20 @@ const Details = () => {
       <div className="picture-container">
         <div className="picture">
           <img src={twin} alt="Sample Pic"/>
-        </div>
-        <div className="picture">
           <img src={twin} alt="Sample Pic"/>
-        </div>
-        <div className="picture">
           <img src={twin} alt="Sample Pic"/>
         </div>
       </div>
       
       <div className="details-container">
         <h1 className="room-name">Twin Room</h1>
-        <article className="room-description-1">
+        <div className="room-description-1">
           <pre>
             {'Max number of guests: 2\nRoom size: Standard size for dual occupancy\nBed size: Two standard single beds\n'}
           </pre>
         
-        </article>
-        <article className="room-description-2">
+        </div>
+        <div className="room-description-2">
         The Twin Room in our hotel is perfect for friends or colleagues 
         traveling together. Featuring two comfortable beds and modern 
         amenities, it provides a cozy and inviting space for dual occupancy. 
@@ -43,7 +40,7 @@ const Details = () => {
         of shared accommodations while relishing the individual comforts our 
         hotel provides, making it an ideal choice for those seeking a 
         comfortable and convenient stay.
-        </article>
+        </div>
         <div className="line"></div>
         <div className="check-in-out">
           <div className="check-in">
@@ -77,11 +74,13 @@ const Details = () => {
           </div>
         </div>
         <div className="book-btn">
-          <button className="book-now">Book now</button>
+          <Link to="./Form">
+            <button className="book-now">Book now</button>
+          </Link>
         </div>
       </div>
     </div>
-    
+
   );
     
 };
