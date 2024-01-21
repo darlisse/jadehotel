@@ -4,7 +4,7 @@ import Header from "./components/header";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Details from "./pages/Details";
-import ReservationForm from "./pages/ReservationForm"
+import Form from "./pages/ReservationForm";
 import Details2 from "./pages/Details-2";
 import Details3 from "./pages/Details-3";
 import Details4 from "./pages/Details-4";
@@ -26,7 +26,7 @@ const App = () => {
           <Route path="/Details-4" exact Component={Details4} />
           <Route path="/Details-5" exact Component={Details5} />
           <Route path="/Details-6" exact Component={Details6} />
-          <Route path="/ReservationForm" exact Companent={ReservationForm} />
+          <Route path="/Details/Form" exact Component={Form} />
         </Routes>
       </Router>
     </div>

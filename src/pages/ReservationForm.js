@@ -50,7 +50,8 @@ const calculatePrice = (startDate, endDate, numGuests, roomType) => {
   return totalPrice;
 };
 
-function ReservationForm() {
+const Form = () => {
+
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [contactNumber, setContactNumber] = useState("");
@@ -178,6 +179,7 @@ function ReservationForm() {
           <option value="suite">Suite</option>
           <option value="executiveRoom">Executive Room</option>
           <option value="presidentialSuite">Presidential Suite</option>
+          <option value="penthouse">Penthouse</option>
         </select>
 
         <div className="guest-input">
@@ -265,6 +267,7 @@ function ReservationForm() {
 
         <p>Total Price: Php{totalPrice}</p>
 
+
         <button type="button" onClick={handleBooking} disabled={isDatesBooked}>
           Book Now
         </button>
@@ -273,4 +276,4 @@ function ReservationForm() {
   );
 }
 
-export default ReservationForm;
+export default Form;
