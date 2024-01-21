@@ -41,6 +41,10 @@ const About = () => {
             </p>
           </span>
         </div>
+        <div className="card">
+          <div className="card_part card_part-one"></div>
+          <div className="card_part card_part-two"></div>
+        </div>
       </div>
     </section>
   );
