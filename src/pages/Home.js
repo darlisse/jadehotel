@@ -39,7 +39,7 @@ const Home = () => {
                       className="icon"
                     />
                     <div>
-                      <h3>Twin Room</h3>
+                      <h2>Twin Room</h2>
                       <p>Two separate single beds placed in the same room</p>
                     </div>
                   </Link>
@@ -52,7 +52,7 @@ const Home = () => {
                       className="icon"
                     />
                     <div>
-                      <h3>Double Room</h3>
+                      <h2>Double Room</h2>
                       <p>A bed larger than a single bed, typically designed for two people.</p>
                     </div>
                     </Link>
@@ -65,7 +65,7 @@ const Home = () => {
                     className="icon"
                     />
                     <div>
-                      <h3>Suite</h3>
+                      <h2>Suite</h2>
                       <p>A larger and more luxurious room with a separate living or sitting area. </p>
                     </div>
                   </Link>
@@ -78,7 +78,7 @@ const Home = () => {
                       className="icon"
                     />
                     <div>
-                      <h3>Executive Room</h3>
+                      <h2>Executive Room</h2>
                       <p>A room with added amenities and services catering to business travelers.</p>
                     </div>
                   </Link>
@@ -91,7 +91,7 @@ const Home = () => {
                       className="icon"
                     />
                     <div>
-                      <h3>Presidential Suite</h3>
+                      <h2>Presidential Suite</h2>
                       <p>The highest-tier suite in some hotels, offering the most luxurious amenities and often reserved for VIP guests or special occasions.</p>
                     </div>
                   </Link>
@@ -104,7 +104,7 @@ const Home = () => {
                       className="icon"
                     />
                     <div>
-                      <h3>Penthouse</h3>
+                      <h2>Penthouse</h2>
                       <p>These rooms are high-end, big rooms- sometimes taking up the entire top floor of a hotel – and come with the ultimate luxury amenities.</p>
                     </div>
                   </Link>

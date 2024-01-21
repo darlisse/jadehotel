@@ -1,5 +1,5 @@
 @import url('https://fonts.cdnfonts.com/css/metropolis-2');
-@import url('https://fonts.cdnfonts.com/css/typographica');
+
 
 .room-details-container {
     display: flex;
@@ -20,7 +20,7 @@ pre {
 .room-name {
     text-align: left;
     font-size: 3rem;
-    color: black;   
+    color: rgb(53, 100, 46);   
     font-family: 'Metropolis';
 }
 
@@ -55,7 +55,7 @@ pre {
 
 .line {
     display: flex;
-    background-color: black;
+    background-color: rgb(53, 100, 46);
     width: 38rem;
     height: .2rem;
     margin-top: 2rem;
@@ -105,12 +105,12 @@ pre {
     background-color: rgb(0, 0, 0);
     color: white;
     justify-content: center;
-    font-family: 'Metropolis    ';
+    font-family: 'Metropolis';
 }
 
 .book-now:hover {
     transition: all 300ms ease-in-out;
     color: white;
-    background-color: rgb(0, 66, 0);
+    background-color: rgb(53, 100, 46);
     box-shadow: 0 0 10px rgb(73, 73, 73);
 }
