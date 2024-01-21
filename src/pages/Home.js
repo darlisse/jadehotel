@@ -46,10 +46,10 @@ const Home = () => {
                 </article>
                 
                 <article>
-                  <Link to="/Details-2">
+                  <Link to="/Details">
                     <img
                       src={double} alt="Double Bed"
-                      class="icon"
+                      className="icon"
                     />
                     <div>
                       <h3>Double Room</h3>
@@ -59,10 +59,10 @@ const Home = () => {
                 </article>
 
                 <article>
-                  <Link to="/Details-3">
+                  <Link to="/Details">
                     <img
                     src={suite} alt="Suit"
-                    class="icon"
+                    className="icon"
                     />
                     <div>
                       <h3>Suite</h3>
@@ -72,10 +72,10 @@ const Home = () => {
                  </article>
 
                 <article>
-                  <Link to="/Details-4">
+                  <Link to="/Details">
                     <img
                       src={executive} alt="Executive"
-                      class="icon"
+                      className="icon"
                     />
                     <div>
                       <h3>Executive Room</h3>
@@ -85,10 +85,10 @@ const Home = () => {
                 </article>
 
                 <article>
-                  <Link to="/Details-5">
+                  <Link to="/Details">
                     <img
                       src={presidential} alt="Presidential"
-                      class="icon"
+                      className="icon"
                     />
                     <div>
                       <h3>Presidential Suite</h3>
@@ -98,10 +98,10 @@ const Home = () => {
                 </article>
 
                 <article>
-                  <Link to="/Details-6">
+                  <Link to="/Details">
                     <img
                       src={penthouse} alt="Penthouse"
-                      class="icon"
+                      className="icon"
                     />
                     <div>
                       <h3>Penthouse</h3>
