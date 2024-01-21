@@ -1,5 +1,5 @@
 import React from "react";
-import "./Details.css";
+import "./Details-2.css";
 import sample from "./assets/sample-room-pic.jpg";
 import wifi from "./assets/wifi.png";
 import pet from "./assets/pet.png";
@@ -25,7 +25,7 @@ const Details = () => {
       </div>
       
       <div className="details-container">
-        <h1 className="room-name">Twin Room</h1>
+        <h1 className="room-name">Double Room</h1>
         <article className="room-description-1">
           <pre>
             {'Max number of guests: 2\nRoom size: Standard size for dual occupancy\nBed size: Two standard single beds\n'}
