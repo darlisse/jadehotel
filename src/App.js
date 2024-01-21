@@ -26,7 +26,7 @@ const App = () => {
           <Route path="/Details-4" exact Component={Details4} />
           <Route path="/Details-5" exact Component={Details5} />
           <Route path="/Details-6" exact Component={Details6} />
-          <Route path="/Form" exact Companent={ReservationForm} />
+          <Route path="/ReservationForm" exact Companent={ReservationForm} />
         </Routes>
       </Router>
     </div>
