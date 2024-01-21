@@ -7,7 +7,12 @@ const Details = () => {
 
     <div className="room-details-container">
       <div className="picture-container">
-        
+        <div className="picture-1">
+          <img src="pic_trulli.jpg" alt="Italian Trulli"></img>
+        </div>
+        <div className="picture-2">
+
+        </div>
       </div>
       <div className="details-container">
         <h1 className="room-name">Single room</h1>
