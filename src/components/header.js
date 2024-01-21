@@ -9,7 +9,7 @@ function Header() {
       <h3>Logo</h3>
       <nav>
         <Link to="/">Home</Link>
-        <Link to="/rooms">Rooms</Link>
+        <Link to="/Details">Rooms</Link>
         <Link to="/About">About</Link>
       </nav>
     </header>
