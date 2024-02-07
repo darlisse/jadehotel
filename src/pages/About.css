@@ -1,4 +1,4 @@
-@import url('https://fonts.cdnfonts.com/css/metropolis-2');
+@import url("https://fonts.cdnfonts.com/css/metropolis-2");
 
 h3 {
   font-size: 30px;
@@ -147,7 +147,6 @@ span:nth-child(18) {
   justify-content: space-between;
 }
 
-/*Light blue cover above the slide show*/
 .card::after {
   content: "";
   position: absolute;
@@ -189,11 +188,20 @@ span:nth-child(18) {
 
 .card_part.card_part-three {
   z-index: 5;
-  background-image: url(https://images.pexels.com/photos/70441/pexels-photo-70441.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-image: url(https://images.pexels.com/photos/1291448/pexels-photo-1291448.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   animation-delay: 4s;
   background-size: cover;
   background-position: 0%;
 }
+
+.card_part.card_part-four {
+  z-index: 4;
+  background-image: url(https://images.pexels.com/photos/2781582/pexels-photo-2781582.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  animation-delay: 4s;
+  background-size: cover;
+  background-position: 0%;
+}
+
 @keyframes opaqTransition {
   3% {
     transform: translateX(0);
